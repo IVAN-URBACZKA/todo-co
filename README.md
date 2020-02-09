@@ -4,31 +4,42 @@
 
 ### https://openclassrooms.com/projects/ameliorer-un-projet-existant-1
 
-Installation
+#### Installation
 
-Cette application a été développée avec le framework Symfony
+##### Cette application a été développée avec le framework Symfony
 
-Cloner le projet pour installer son contenu
+###### Cloner le projet pour installer son contenu
 https://github.com/IVAN-URBACZKA/todo-co.git
 
-Utiliser Composer pour installer les dépendances dans le dossier vendor
+###### Utiliser Composer pour installer les dépendances dans le dossier vendor
 cd P8/
 
-'composer install'
+```
+composer install
+```
 
-Créer la database
-'bin/console doctrine:database:create'
 
-Importer les tables dans la database
-'bin/console doctrine:schema:update --force'
+###### Créer la database
+```
+bin/console doctrine:database:create
+```
 
-(optional) Load the fixtures
-'bin/console doctrine:fixtures:load'
 
-Testing
+###### Importer les tables dans la database
+```
+bin/console doctrine:schema:update --force
+```
+
+
+###### (optional) Load the fixtures
+```
+bin/console doctrine:fixtures:load'
+```
+
+
+###### Testing
 Lancer les tests avec phpunit
-'bin/phpunit'
+```
+bin/phpunit
+```
 
-Contribuer
-
-Consulter CONTRIBUTING.md
