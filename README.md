@@ -12,8 +12,6 @@
 https://github.com/IVAN-URBACZKA/todo-co.git
 
 ###### Utiliser Composer pour installer les dépendances dans le dossier vendor
-cd P8/
-
 ```
 composer install
 ```
