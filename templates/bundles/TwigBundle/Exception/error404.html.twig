@@ -1,0 +1,12 @@
+{% block title %}Page non trouvée{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <h1>Oups ! La page que vous recherchez n'existe pas !</h1>
+        <p>On a surement du mal vous renseigner ! Retournez donc à l'accueil voir nos dernières missions !</p>
+            <a href="{{path('homepage')}}" class="btn btn-primary">Retour à l'accueil</a>
+    </div>
+
+
+{% endblock %}
