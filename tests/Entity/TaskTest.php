@@ -22,6 +22,7 @@ class TaskTest extends TestCase
             ->setContent($content)
             ->setCreatedAt($createdAt)
             ->setUser($user)
+            ->setIsDone(false)
         ;
 
         $this->assertEquals(null, $task->getId());
@@ -29,7 +30,7 @@ class TaskTest extends TestCase
         $this->assertEquals($content, $task->getContent());
         $this->assertEquals($createdAt, $task->getCreatedAt());
         $this->assertEquals($user, $task->getUser());
-        $this->assertEquals(false, $task->isDone());
+        $this->assertEquals(false, $task->GetIsDone());
     }
 
     public function testStateChange()

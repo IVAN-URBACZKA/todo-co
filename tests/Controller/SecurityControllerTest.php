@@ -2,8 +2,9 @@
 
 namespace App\Tests\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
+use App\Controller\SecurityController;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 /**
  * Functional test for the controllers defined inside SecurityController
@@ -16,7 +17,7 @@ class SecurityControllerTest extends WebTestCase
         $this->assertSame(Response::HTTP_OK, $client->getResponse()->getStatusCode());
     }
 
-    public function testLogout(){
+    public function testLogoutPage(){
         
         $client = static::createClient([], [
             'PHP_AUTH_USER' => 'jeanuser',
@@ -28,4 +29,5 @@ class SecurityControllerTest extends WebTestCase
         $client->followRedirect();
         $this->assertSame(Response::HTTP_OK, $client->getResponse()->getStatusCode());
     }
+    
 }
