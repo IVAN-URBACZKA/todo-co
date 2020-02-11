@@ -8,7 +8,7 @@ security:
         in_database:
             entity:
                 class: App\Entity\User
-                property: email
+                property: username
 
     firewalls:
         dev:
@@ -19,8 +19,8 @@ security:
             anonymous: true
             provider: in_database
             form_login:
-                login_path: login
-                check_path: login
+                login_path: /login
+                check_path: login_check
                 always_use_default_target_path:  true
                 default_target_path:  /
             logout: ~
@@ -30,4 +30,5 @@ security:
 
     access_control:
         - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/users, roles: ROLE_ADMIN }
         - { path: ^/, roles: ROLE_USER }
