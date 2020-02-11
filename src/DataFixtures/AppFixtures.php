@@ -39,7 +39,7 @@ class AppFixtures extends Fixture
         $manager->persist($user2);
         $users[] = $user2;
 
-        for ($p = 1; $p < 5; $p++){
+        for ($p = 1; $p < 10; $p++){
             $task = new Task();
             $task->setTitle('task n-'.mt_rand());
             $task->setContent("fake content of the task");
