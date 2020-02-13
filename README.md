@@ -38,6 +38,7 @@ bin/console doctrine:fixtures:load'
 ###### Testing
 Lancer les tests avec phpunit
 ```
-bin/phpunit
+vendor\bin\phpunit test
 ```
+
 
