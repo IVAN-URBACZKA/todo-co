@@ -2,7 +2,7 @@
 
 ## Guide
 
-1. Fork du repository (How to)
+1. Fork du repository [How to] (https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 
 2. Installer le projet (voir README.md)
 
