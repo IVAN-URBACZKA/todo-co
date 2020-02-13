@@ -105,7 +105,6 @@ class TaskController extends AbstractController
         $em = $this->getDoctrine()->getManager();
         $em->remove($task);
         $em->flush();
-
         $this->addFlash('success', 'La tâche a bien été supprimée.');
 
         return $this->redirectToRoute('task_list');
