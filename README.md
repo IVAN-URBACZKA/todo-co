@@ -1,6 +1,8 @@
 # ToDoList
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/48382e842ef0416f81cec17dbc8217fb)](https://www.codacy.com/manual/IVAN-URBACZKA/todo-co?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=IVAN-URBACZKA/todo-co&amp;utm_campaign=Badge_Grade)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f8ba6e03251648048920ac80c27ffa04)](https://app.codacy.com/manual/IVAN-URBACZKA/todo-co?utm_source=github.com&utm_medium=referral&utm_content=IVAN-URBACZKA/todo-co&utm_campaign=Badge_Grade_Dashboard)
+
 ## Base du projet #8 : Améliorez un projet existant
 
 ### https://openclassrooms.com/projects/ameliorer-un-projet-existant-1
