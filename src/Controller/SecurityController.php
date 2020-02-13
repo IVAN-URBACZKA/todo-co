@@ -22,7 +22,6 @@ class SecurityController extends AbstractController
         ));
     }
 
-
     /**
      * @Route("/logout", name="logout")
      */
