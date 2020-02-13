@@ -41,4 +41,5 @@ Lancer les tests avec phpunit
 vendor\bin\phpunit test
 ```
 
-
+# Contribuer
+[Consulter] (https://github.com/IVAN-URBACZKA/todo-co/blob/master/CONTRIBUTING.md)
