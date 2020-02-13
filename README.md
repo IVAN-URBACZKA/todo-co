@@ -6,7 +6,7 @@
 
 #### Installation
 
-##### Cette application a été développée avec le framework Symfony
+##### Cette application a été développée avec le framework [Symfony](https://symfony.com/)
 
 ###### Cloner le projet pour installer son contenu
 https://github.com/IVAN-URBACZKA/todo-co.git
