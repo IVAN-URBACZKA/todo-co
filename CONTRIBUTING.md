@@ -30,6 +30,6 @@ git push -u origin branch
 
 Standards de qualité à respecter
 
-+[PSR-1: Basic Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md)
-+[PSR-4: Autoloading Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md)
-+[Symfony Coding Standards](https://symfony.com/doc/current/contributing/code/standards.html)
++ [PSR-1: Basic Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md)
++ [PSR-4: Autoloading Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md)
++ [Symfony Coding Standards](https://symfony.com/doc/current/contributing/code/standards.html)
