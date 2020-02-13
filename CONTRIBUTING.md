@@ -2,9 +2,9 @@
 
 ## Guide
 
-1. Fork du repository [How to] (https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+1. Fork du repository [How to](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 
-2. Installer le projet (voir README.md)
+2. Installer le projet [voir README.md](https://github.com/IVAN-URBACZKA/todo-co/blob/master/README.md)
 
 3. Créer une nouvelle branch
 ```
