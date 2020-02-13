@@ -1,6 +1,6 @@
-#Contribuer
+# Contribuer
 
-##Guide
+## Guide
 
 1. Fork du repository (How to)
 
