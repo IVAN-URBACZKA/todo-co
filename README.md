@@ -42,4 +42,4 @@ vendor\bin\phpunit test
 ```
 
 # Contribuer
-[Consulter] (https://github.com/IVAN-URBACZKA/todo-co/blob/master/CONTRIBUTING.md)
+[Consulter](https://github.com/IVAN-URBACZKA/todo-co/blob/master/CONTRIBUTING.md)
