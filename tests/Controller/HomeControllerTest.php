@@ -14,7 +14,6 @@ class HomeControllerTest extends WebTestCase
     {
         $client = static::createClient();
         $client->request('GET', '/');
-
         $response = $client->getResponse();
         $this->assertSame(Response::HTTP_FOUND, $response->getStatusCode());
         $this->assertSame('http://localhost/login',$response->getTargetUrl());
