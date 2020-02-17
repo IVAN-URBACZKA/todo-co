@@ -7,8 +7,12 @@
     <div class="row">
         {{ form_start(form, {'action' : path('user_create')}) }}
             {{ form_widget(form) }}
-
+            {% if is_granted('ROLE_ADMIN') %}
+            <a href="{{ path('user_list') }}" class="btn btn-primary pull-right">Voir la listes des utilisateurs</a>
+            {% endif %}
             <button type="submit" class="btn btn-success pull-right">Ajouter</button>
         {{ form_end(form) }}
     </div>
+
+  
 {% endblock %}
