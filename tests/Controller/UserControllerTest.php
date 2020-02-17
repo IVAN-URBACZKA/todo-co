@@ -63,7 +63,7 @@ class UserControllerTest extends WebTestCase
             'PHP_AUTH_USER'  => 'admin',
             'PHP_AUTH_PW' => 'password',
         ]);
-        $crawler = $client->request('GET', '/users/58/edit');
+        $crawler = $client->request('GET', '/users/59/edit');
 
         $form = $crawler->selectButton('Modifier')->form([
             'user[password][first]' => 'password',
